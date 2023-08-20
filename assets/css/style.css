@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 /* Asterisk to override all the default styles added by the browser */
 * {
@@ -86,7 +86,6 @@ nav {
 
 /* Main */
 main {
-
     /* Make main element take up surplus space to push footer to the bottom */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -102,7 +101,7 @@ main {
 
 #cover-text {
     /* The rgba value sets the opacity so it is semi-transparent*/
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(241, 109, 107, 0.7);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -116,6 +115,34 @@ main {
 #cover-text>h3 {
     color: #ffffff;
 }
+
+/* Reasons section*/
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 
 /* Footer */
 #social-networks {
@@ -173,8 +200,8 @@ main {
         width: 300px;
         right: 50px;
     }
-
 }
+
 
 /*Media query: tablets and larger (992px and up)*/
 @media screen and (min-width: 992px) {
