@@ -27,6 +27,10 @@ h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -173,7 +177,7 @@ main {
 
 #times div {
     color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     text-align: center;
     /* This will not wrap on screens less than 400 px wide. 
@@ -187,7 +191,6 @@ main {
 #times h3 {
     /* Overrides the color set to h3 in the general styles*/
     color: #fafafa;
-
 }
 
 /* Footer */
@@ -266,7 +269,6 @@ main {
     }
 }
 
-
 /*Media query: tablets and larger (992px and up)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
@@ -276,7 +278,6 @@ main {
 
 /*Media query: tablets and larger (1200px and up)*/
 @media screen and (min-width: 1200px) {
-
     /* Reasons section */
 
     #benefits {
@@ -303,7 +304,4 @@ main {
     #benefits-physical>div {
         align-self: flex-end;
     }
-
-
-
 }
